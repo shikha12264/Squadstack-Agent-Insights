@@ -1,22 +1,21 @@
 # Squadstack-Agent-Insights
 
 # Description of files for this repo
-    
 #### README.pdf : Problem Statement
 #### Agent Insights -Solution.ipynb : The Jupyter Notebook containing all the insights of the agent's performance.
 
 ### Dataset
-#### agent_followup_data.csv : Input Dataset .
-#### glossary : description of all the columns of dataset.
+    - agent_followup_data.csv : Input Dataset .
+    - glossary : description of all the columns of dataset.
 
 #### Graphical Representations of all the factors considered for agent's performance
-#### Number of Follow ups each Agent.png 
-#### Percentage of Follow Ups.png
-#### Number of Distinct Leads each Agent.png
-#### Distribution of Followup Type each Agent.png
-#### Distribution of Delay in Follow up.png
-#### Median delay in follow up per agent
-#### Total number of times an Agent gets a call from a lead
+  - Number of Follow ups each Agent.png 
+  - Percentage of Follow Ups.png
+  - Number of Distinct Leads each Agent.png
+  - Distribution of Followup Type each Agent.png
+  - Distribution of Delay in Follow up.png
+  - Median delay in follow up per agent
+  - Total number of times an Agent gets a call from a lead
 
 # Real Estate Analysis Report
 
@@ -51,7 +50,7 @@ They do this by regularly following-up with them using calls, text messages or e
 
 The dataset provided comes from a CRM platform used by the brokerage firm. The dataset has a CSV file format. The following is a screenshot of data along with the definitions of each column in the dataset :
 
-![Example Dataset](https://github.com/hemantrattey/Squadstack/blob/master/assets/Example_dataset.JPG)
+![Example Dataset]
 
 - ***id:*** Unique followup identifier
 - ***followup_date:*** Timestamp when the followup happened
