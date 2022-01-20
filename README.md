@@ -5,8 +5,8 @@
 #### Agent Insights -Solution.ipynb : The Jupyter Notebook containing all the insights of the agent's performance.
 
 ### Dataset
-    - agent_followup_data.csv : Input Dataset .
-    - glossary : description of all the columns of dataset.
+   - agent_followup_data.csv : Input Dataset .
+   - glossary : description of all the columns of dataset.
 
 #### Graphical Representations of all the factors considered for agent's performance
   - Number of Follow ups each Agent.png 
