@@ -1,0 +1,8 @@
+Columns	Description
+id	Unique followup identifier
+followup_date	Timestamp when the followup happened
+lead_created_at	Timestamp when the lead was first created on the CRM
+leadId	Unique id of the lead with whom followup happened
+followup_type	Type of followup - Call/ Email/ Text
+agentId	Agent who followed up with the lead
+additional_data	Additional data associated with the followup - duration - Time for which call lasted in seconds isIncoming - False means agent made the Call/ Email/ Text
