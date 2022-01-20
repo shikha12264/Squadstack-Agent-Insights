@@ -138,7 +138,7 @@ The idea behind the scoring criteria is to assign values from 0-10 based on each
 
 ## Conclusion
 
-Upon evaluating the agents based on the scoring index described above, it was found that ***Agent 4***, ***Agent 10*** and ***Agent 9*** were the top 3 agents in that order. The following is a screenshot of the scoring values for each agent :
+Evaluating the agents based on the scoring index described below,  ***Agent 4***, ***Agent 10*** , ***Agent 9*** and ***Agent 5*** were the top 4 agents in that order. The following is a screenshot of the scoring values for each agent :
 
 ![rank](https://github.com/hemantrattey/Squadstack/blob/master/assets/rank.JPG)
 
