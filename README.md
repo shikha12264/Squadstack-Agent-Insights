@@ -74,7 +74,7 @@ The following libraries have been used for the analysis process :
 - Seaborn
 - Matplotlib
 
-At first glance of the data, we see that each row corresponds to a follow up made by an agent to their leads. There can be multiple rows where one agent makes a follow up to the same lead over and over again. This is normal in real estate scenario as an agent keeps going back and forth with their potential customers. 
+At first glance of the data, we can see that each row corresponds to a follow up made by an agent to their leads. There can be multiple rows where one agent makes a follow up to the same lead over and over again. This is normal in real estate scenario as an agent keeps going back and forth with their potential customers. 
 
 Thus, the first step in my analysis was to count the number of follow ups done by an agent. On its own, the count of follow ups of each agent doesn't necessarily mean that they are better agents. It could be just that they made multiple calls/mail/text to a single lead. 
 
