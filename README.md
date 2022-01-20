@@ -1,12 +1,12 @@
-# Squadstack-Agent-Insights
+# Squadstack-Activity-Agent-Performance-Insights
 
 ## Description of files for this repository
  - README.pdf : Problem Statement
  - Agent Insights -Solution.ipynb : The Jupyter Notebook containing all the insights of the agent's performance.
-#### Dataset
+#### Dataset folder
   - agent_followup_data.csv : Input Dataset .
   - glossary : description of all the columns of dataset.
-#### Graphical Representations of all the factors considered for agent's performance
+#### Graphical Representations (visualizations) of all the factors considered for agent's performance
   - Number of Follow ups each Agent.png 
   - Percentage of Follow Ups.png
   - Number of Distinct Leads each Agent.png
@@ -16,17 +16,10 @@
   - Total number of times an Agent gets a call from a lead
 
 # Brokerage Agent Performance Analysis Report
+## Activity Objective 
 
-Please use the following structure as a guide:
-- All scripts are in the script folder.
-- All visualizations are in the viz folder.
-- data folder contains the dataset.
-- assets folder contains miscellaneous screenshots for the report. 
-
-### Motivation 
-
-The aim of this project is to analyse the given real estate dataset and provide a scoring criteria to measure an agents performance.
-In this analysis, I have tried to wrangle the dataset provided from the CRM platform and have used this dataset to come up with a agent performance scoring criteria and use this algorithm to choose the Top 3 agents in the brokerage firm. 
+The objective of this project is to look at a real estate dataset and come up with a set of scoring criteria to evaluate an agent's performance.
+In this study, I attempted to wrangle the dataset and utilised it to develop an agent performance scoring criteria and use this algorithm to choose the Top 4 agents in the brokerage firm.
 
 I have also included suggestions for the brokerage firms to improve their agent's performances.
 
