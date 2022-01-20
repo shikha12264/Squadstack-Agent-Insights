@@ -69,8 +69,7 @@ At first glance of the data, we can see that each row corresponds to a follow up
 
 Thus, the first step in my analysis was to count the number of follow ups done by an agent. On its own, the count of follow ups of each agent doesn't necessarily mean that they are better agents. It could be just that they made multiple calls/mail/text to a single lead. 
 
-![image](https://user-images.githubusercontent.com/64529469/150400467-b3a429ee-90cf-4132-9a55-04ce83d15932.png)
-
+![Number of Follow ups each Agent](https://user-images.githubusercontent.com/64529469/150412814-3f18f613-73e1-4ce8-ae67-f485396f2cc2.png)
 
 We can see that Agent 4 made the most number of follow ups. This also comes out to be around 22% of the total follow ups. On the other hand, Agent 0 made the least number of follow ups which was around 0.17%. 
 
@@ -78,7 +77,7 @@ We can see that Agent 4 made the most number of follow ups. This also comes out 
 
 But, as discussed above, it doesn't make sense to show number of follow ups on its own. Another performance indicator could be the unique number of leads each agent has. 
 
-![image](https://user-images.githubusercontent.com/64529469/150401967-b79d78bf-7770-4128-98ee-0e277a76c401.png)
+![Number of Distinct Leads each Agent](https://user-images.githubusercontent.com/64529469/150412874-e4b403b5-8689-4d9b-8cb5-56b32283a1f6.png)
 
 Again, the graph shows that Agent 4 has the most number of leads and Agent 0 has the least number of leads. This still doesnot guarantee a great performance indicator. Instead, it could just mean that the brokerage has put more trust on Agent 4 as they have provided them with the most leads and Agent 0 might be a new agent hence has least number of leads. 
 
@@ -90,7 +89,7 @@ Since, the follow_up_delay (days) is a highly right skewed distribution, it woul
 
 The following is the median number of days taken by each agent to follow up to their leads. 
 
-![image](https://user-images.githubusercontent.com/64529469/150402270-79f73045-29f1-4634-83ea-bbff10b0420c.png)
+![Median delay in follow up per agent](https://user-images.githubusercontent.com/64529469/150412952-b8361a78-8365-41ee-b6a7-c3a9790926b2.png)
 
 As you can see, Agent 5 takes only 8 days to get back to their leads whereas Agents 3 and 7 take more than a year to get back to their leads. This might mean that the potential customers aren't happy with agents 3 and 7 as they don't want to be kept waiting for such a long time. 
 
@@ -100,15 +99,13 @@ If the median delay is decreased then surely the potential customers would be sa
 
 Additionally, the follow up type is a good indicator of performance as leads are more likely to reply to a call immediately rather than an email or a text message. Thus agents calling up their leads might have better success rate than the others. 
 
-![image](https://user-images.githubusercontent.com/64529469/150402379-ca4c4f01-b9c9-49c2-a898-115106e505f5.png)
-![image](https://user-images.githubusercontent.com/64529469/150402476-e4aaefee-ed22-4c5d-88bb-8dd34425d4fd.png)
-![image](https://user-images.githubusercontent.com/64529469/150402524-6f4c830a-3cde-41fd-a10a-fa0396e369a4.png)
+![Distribution of Followup Type each Agent](https://user-images.githubusercontent.com/64529469/150413016-281c870f-f8de-49f7-ba56-17c4b7c291f7.png)
 
 It is clear that Agent 4 spends a lot of time calling their leads and texting them whereas Agent 5 relies on waiting for replies on their mails. 
 
 Finally, if an agent receives a call from their lead, this means that the potential customer is interested in doing business with the brokerage firm and this shows a positive sign in agents performance. 
 
-![image](https://user-images.githubusercontent.com/64529469/150402582-be021301-f4cb-419f-97ef-b26e24063bdf.png)
+![Total number of times an Agent gets a call from a lead](https://user-images.githubusercontent.com/64529469/150413059-47583bfa-ffe8-4690-9aa4-ea2e1fbc2a47.png)
 
 Agent 7 gets a lot of calls from their leads and it might show that he is good at his job and converting leads to customers. On the other hand, agent 3 hardly receives any calls from their leads. 
 
