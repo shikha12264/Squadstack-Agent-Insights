@@ -78,16 +78,16 @@ At first glance of the data, we can see that each row corresponds to a follow up
 
 Thus, the first step in my analysis was to count the number of follow ups done by an agent. On its own, the count of follow ups of each agent doesn't necessarily mean that they are better agents. It could be just that they made multiple calls/mail/text to a single lead. 
 
-![Follow ups](https://github.com/hemantrattey/Squadstack/blob/master/viz/Number%20of%20Follow%20ups%20per%20Agent.png)
+![image](https://user-images.githubusercontent.com/64529469/150400467-b3a429ee-90cf-4132-9a55-04ce83d15932.png)
+
 
 We can see that Agent 4 made the most number of follow ups. This also comes out to be around 22% of the total follow ups. On the other hand, Agent 0 made the least number of follow ups which was around 0.17%. 
 
-![perc_follow_ups](https://github.com/hemantrattey/Squadstack/blob/master/assets/perc_follow_ups.JPG)
-
+![image](https://user-images.githubusercontent.com/64529469/150401872-d378881e-a1ba-4784-9b7c-b6b49ced909b.png)
 
 But, as discussed above, it doesn't make sense to show number of follow ups on its own. Another performance indicator could be the unique number of leads each agent has. 
 
-![Leads](https://github.com/hemantrattey/Squadstack/blob/master/viz/Number%20of%20Distinct%20Leads%20per%20Agent.png)
+![image](https://user-images.githubusercontent.com/64529469/150401967-b79d78bf-7770-4128-98ee-0e277a76c401.png)
 
 Again, the graph shows that Agent 4 has the most number of leads and Agent 0 has the least number of leads. This still doesnot guarantee a great performance indicator. Instead, it could just mean that the brokerage has put more trust on Agent 4 as they have provided them with the most leads and Agent 0 might be a new agent hence has least number of leads. 
 
@@ -95,27 +95,29 @@ I went deeper into the data and found that there is a Date when the lead is crea
 
 Since, the follow_up_delay (days) is a highly right skewed distribution, it would make sense to look at the median rather than mean as an indicator because median is not affected by outliers. 
 
-![histogram](https://github.com/hemantrattey/Squadstack/blob/master/viz/Distribution%20of%20Delay%20in%20Follow%20up.png)
+![image](https://user-images.githubusercontent.com/64529469/150402179-88ef4d55-5aa6-4b85-a7b1-dd5a4a61d85a.png)
 
 The following is the median number of days taken by each agent to follow up to their leads. 
 
-![median](https://github.com/hemantrattey/Squadstack/blob/master/viz/Median%20delay%20in%20follow%20up%20per%20agent.png)
+![image](https://user-images.githubusercontent.com/64529469/150402270-79f73045-29f1-4634-83ea-bbff10b0420c.png)
 
 As you can see, Agent 5 takes only 8 days to get back to their leads whereas Agents 3 and 7 take more than a year to get back to their leads. This might mean that the potential customers aren't happy with agents 3 and 7 as they don't want to be kept waiting for such a long time. 
 
-![median_delay](https://github.com/hemantrattey/Squadstack/blob/master/assets/median_delay.JPG)
+![image](https://user-images.githubusercontent.com/64529469/150402311-73ce4690-7931-41e2-b09e-fe57b2737cf6.png)
 
 If the median delay is decreased then surely the potential customers would be satisfied with the agents and thus increasing the profits of the brokerage firm. 
 
 Additionally, the follow up type is a good indicator of performance as leads are more likely to reply to a call immediately rather than an email or a text message. Thus agents calling up their leads might have better success rate than the others. 
 
-![follow_up_type](https://github.com/hemantrattey/Squadstack/blob/master/viz/Distribution%20of%20Followup%20Type%20per%20Agent.png)
+![image](https://user-images.githubusercontent.com/64529469/150402379-ca4c4f01-b9c9-49c2-a898-115106e505f5.png)
+![image](https://user-images.githubusercontent.com/64529469/150402476-e4aaefee-ed22-4c5d-88bb-8dd34425d4fd.png)
+![image](https://user-images.githubusercontent.com/64529469/150402524-6f4c830a-3cde-41fd-a10a-fa0396e369a4.png)
 
 It is clear that Agent 4 spends a lot of time calling their leads and texting them whereas Agent 5 relies on waiting for replies on their mails. 
 
 Finally, if an agent receives a call from their lead, this means that the potential customer is interested in doing business with the brokerage firm and this shows a positive sign in agents performance. 
 
-![incoming](https://github.com/hemantrattey/Squadstack/blob/master/viz/Total%20number%20of%20times%20an%20Agent%20gets%20a%20call%20from%20a%20lead.png)
+![image](https://user-images.githubusercontent.com/64529469/150402582-be021301-f4cb-419f-97ef-b26e24063bdf.png)
 
 Agent 7 gets a lot of calls from their leads and it might show that he is good at his job and converting leads to customers. On the other hand, agent 3 hardly receives any calls from their leads. 
 
@@ -140,7 +142,7 @@ The idea behind the scoring criteria is to assign values from 0-10 based on each
 
 Evaluating the agents based on the scoring index described below,  ***Agent 4***, ***Agent 10*** , ***Agent 9*** and ***Agent 5*** were the top 4 agents in that order. The following is a screenshot of the scoring values for each agent :
 
-![rank](https://github.com/hemantrattey/Squadstack/blob/master/assets/rank.JPG)
+![image](https://user-images.githubusercontent.com/64529469/150402674-eb04a151-36d9-4d65-af68-74e55bc4a1b0.png)
 
 ## Suggestions
 
