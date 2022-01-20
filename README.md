@@ -1,13 +1,11 @@
 # Squadstack-Agent-Insights
 
-# Description of files for this repo
-#### README.pdf : Problem Statement
-#### Agent Insights -Solution.ipynb : The Jupyter Notebook containing all the insights of the agent's performance.
-
-### Dataset
-   - agent_followup_data.csv : Input Dataset .
-   - glossary : description of all the columns of dataset.
-
+## Description of files for this repository
+ - README.pdf : Problem Statement
+ - Agent Insights -Solution.ipynb : The Jupyter Notebook containing all the insights of the agent's performance.
+#### Dataset
+  - agent_followup_data.csv : Input Dataset .
+  - glossary : description of all the columns of dataset.
 #### Graphical Representations of all the factors considered for agent's performance
   - Number of Follow ups each Agent.png 
   - Percentage of Follow Ups.png
@@ -17,7 +15,7 @@
   - Median delay in follow up per agent
   - Total number of times an Agent gets a call from a lead
 
-# Real Estate Analysis Report
+# Brokerage Agent Performance Analysis Report
 
 Please use the following structure as a guide:
 - All scripts are in the script folder.
