@@ -17,3 +17,12 @@ I have also included suggestions for the brokerage firms to improve their agent'
 # Background
 
 A Real estate agent works under a licensed broker (or brokerage). The brokerage provides the real estate agent with leads (leads are people who are looking to buy, sell or rent), and the agent's job is to help them in their home buying, selling or renting process. They do this by regularly following-up with them using calls, text messages or emails. After every follow-up with a lead, the activity is recorded on the CRM(CRM is a Customer Relationship Manager, which is a tool that agents use to log data for a particular lead).
+
+# Description of files for this repo
+    
+#### sb_README.pdf : Problem Statement
+#### block_sample.txt : Sample output of Block Transacctions.
+#### Solution.ipynb : The Jupyter Notebook containing all the functions & code.
+#### main.py : Source Code for the problem
+#### mempool.csv : Input Dataset for the mempool.
+#### block.txt : output containing Block Transactions.
